@@ -2,9 +2,9 @@
 
 A two-wheeled self-balancing robot using stepper motors, an IMU, and a PID control system.
 
-[Final CAD Design:](self_balancing_robot/images/assemby)
+[Final CAD Design:](self_balancing_robot/Images/assemby)
 
-[Final Build:](self_balancing_robot/images/FinalBuild)
+[Final Build:](self_balancing_robot/Images/FinalBuild)
 
 ## Links
 
