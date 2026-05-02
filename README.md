@@ -20,13 +20,9 @@ This project investigates real-time control systems by building a Segway-style r
 
 ## Key Features
 - PID control
-$$
-u(t) = K_p e(t) + K_i \int e(t)\,dt + K_d \frac{de(t)}{dt}
-$$
+![PID equation](Images/PIDeq.png)
 - Complementary filter (IMU fusion)
-$$
-\theta = \alpha \left(\theta + \omega \cdot dt \right) + (1 - \alpha)\,\theta_{\text{acc}}
-$$
+![Complimentary filter equation](Images/CompFilterEq.png)
 - Stepper motor drive
 - Custom 3D printed chassis
 - Kill switch
