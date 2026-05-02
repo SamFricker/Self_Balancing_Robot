@@ -1,9 +1,10 @@
 # Control System
 
 The robot uses a PID controller:
-
-u(t) = Kp*e(t) + Ki∫e(t)dt + Kd*de/dt
-
+$$
+u(t) = K_p e(t) + K_i \int e(t)\,dt + K_d \frac{de(t)}{dt}
+$$
+The core idea is that the proportional term grows with error (adjusting motors toward desired point), The integral term grows with accumulated error (adjusting motors such that error is not large for a long time), and the derivative term changes with the rate of error (making sure the motor doesnt overshoot)
 ## Strategy
 1. Balance loop (angle → motor speed)
 2. Velocity compensation (reduces drift)
