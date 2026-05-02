@@ -1,7 +1,7 @@
 # Control System
 
 The robot uses a PID controller:
-![PID equation](Images/PIDeq.png)
+![PID equation](../Images/PIDeq.png)
 
 The core idea is that the proportional term grows with error (adjusting motors toward desired point), The integral term grows with accumulated error (adjusting motors such that error is not large for a long time), and the derivative term changes with the rate of error (making sure the motor doesnt overshoot)
 ## Strategy
